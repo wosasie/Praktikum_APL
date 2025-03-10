@@ -43,7 +43,8 @@ int main(){
             cout << "1. Rupiah ke Dolar AS" << endl << "2. Rupiah ke Euro" << endl;
             cout << "3. Dolar As ke Rupiah" << endl << "4. Dolar AS ke Euro" << endl;
             cout << "5. Euro ke Rupiah" << endl << "6. Euro ke Dolar AS" << endl;
-            cout << "7. Kembali";
+            cout << "7. Kembali" << endl;
+            cout << "Masukan pilihan: ";
             cin >> konversi_mata_uang;
 
             if (konversi_mata_uang == 1){
@@ -86,7 +87,8 @@ int main(){
             cout << "1. Kilometer ke Meter" << endl << "2. Kilometer ke Centimeter" << endl;
             cout << "3. Meter ke Kilometer" << endl << "4. Meter ke Centimeter" << endl;
             cout << "5. Centimeter ke Kilometer" << endl << "6. Centimeter ke Meter" << endl;
-            cout << "7. Kembali";
+            cout << "7. Kembali" << endl;
+            cout << "Masukan pilihan: ";
             cin >> konversi_jarak;
 
             if (konversi_jarak == 1){
@@ -128,7 +130,8 @@ int main(){
             cout << "1. Jam ke Menit" << endl << "2. Jam ke Detik" << endl;
             cout << "3. Menit ke Jam" << endl << "4. Menit ke Detik" << endl;
             cout << "5. Detik ke Jam" << endl << "6. Detik ke Menit" << endl;
-            cout << "7. Kembali";
+            cout << "7. Kembali" << endl;
+            cout << "Masukan pilihan: ";
             cin >> konversi_waktu;
 
             if (konversi_waktu == 1){
@@ -166,8 +169,8 @@ int main(){
             cout << "Yippie! Logout berhasil!" << endl;
             break;
         } else {
-            cout << "Pilihan gak valid nih! Coba lagi okai!";
+            cout << "Pilihan gak valid nih! Coba lagi okai!" << endl;
         }
     }
     return 0;
-}
+} 
