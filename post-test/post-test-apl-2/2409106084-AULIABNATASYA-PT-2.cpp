@@ -30,7 +30,7 @@ int main(){
         cout << "Password: ";
         cin >> password_admin;
 
-        if (username_admin == "admin" && password_admin == "5555"){
+        if (username_admin == "aulianatasya" && password_admin == "084"){
             cout << "Yippie! Login berhasil!" << endl;
             break;
         } else {
@@ -59,7 +59,6 @@ int main(){
         if (pilihan_menu_merch == 1){
             if (panjang_array < max_merch){
                 cout << "Masukan nama merchandise: ";
-                cin.ignore();
                 getline(cin, katalog_merch[panjang_array]);
                 cout << "Masukan harga merchandise: ";
                 cin >> harga_merch[panjang_array];
