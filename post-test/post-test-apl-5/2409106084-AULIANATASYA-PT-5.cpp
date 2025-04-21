@@ -74,7 +74,7 @@ void tambah_merchandise(Merchandise katalog[], int *panjang_array) {
         cin >> katalog[*panjang_array].rincian.stok_merch;
         cout << "Masukan edisi merchandise: ";
         cin >> katalog[*panjang_array].edisi_merch;
-        (*panjang_array)++; // mengubah panjang array dengan dereference pointer
+        (*panjang_array)++; 
         cout << "Yay! Merchandise berhasil ditambahkan!" << endl;
         cout << "--------------------------------------" << endl;
     } else {
